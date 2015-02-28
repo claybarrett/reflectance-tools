@@ -31,7 +31,7 @@ def calcRadiance (LMAX, LMIN, QCALMAX, QCALMIN, QCAL, outfolder):
     
     return outname
 
-def calcReflectance(solarDist, ESUN, solarZenith, radianceRaster, scaleFactor, outfolder):
+def calcReflectance(solarDist, ESUN, solarElevation, radianceRaster, scaleFactor, outfolder):
     
     #Value for solar zenith is 90 degrees minus solar elevation (angle from horizon to the center of the sun)
     #http://landsathandbook.gsfc.nasa.gov/data_properties/prog_sect6_3.html
